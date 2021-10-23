@@ -1,6 +1,7 @@
 import modalWindow from './modules/modalWindow';
 import scroll from './modules/scroll';
 import topSlider from './modules/topSlider';
+import сarousel from './modules/сarousel';
 
 
 // Модальное окно
@@ -9,3 +10,5 @@ modalWindow();
 scroll();
 // Верхний слайдер
 topSlider();
+// Верхний слайдер
+сarousel();
