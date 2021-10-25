@@ -4,8 +4,12 @@ const topSlider = () => {
 
 	let currentSlide = 0;
 
-	sliderTable[0].style.opacity = '1';
-	sliderTable[0].style.visibility = 'visible';
+	// sliderTable[0].style.opacity = '1';
+	// sliderTable[0].style.visibility = 'visible';
+	sliderTable[0].style.cssText = `opacity: 1;
+																	visibility: visible;
+																	transition:all ease 1s;
+																	`;
 
 	const prevSlide = (elem, elem2, index) => {
 		elem[index].style.display = 'none';
