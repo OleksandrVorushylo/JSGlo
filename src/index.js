@@ -3,6 +3,7 @@ import scroll from './modules/scroll';
 import topSlider from './modules/topSlider';
 import сarousel from './modules/сarousel';
 import accordeon from './modules/accordeon';
+import toUp from './modules/toUp';
 
 
 // Модальное окно
@@ -11,7 +12,9 @@ modalWindow();
 scroll();
 // Верхний слайдер
 topSlider();
-// Верхний слайдер
+// Нижний слайдер-карусель
 сarousel();
-// Верхний слайдер
+// Табы
 accordeon();
+// Вверх
+toUp();

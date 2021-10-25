@@ -1270,3 +1270,19 @@ video#video_background {
   }
 }
 /**** /. services section *****/
+.up-animation {
+  display: block !important;
+  animation: showBlock 1s linear forwards;
+}
+@keyframes showBlock {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-25px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
