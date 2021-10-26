@@ -5,6 +5,7 @@ import сarousel from './modules/сarousel';
 import accordeon from './modules/accordeon';
 import toUp from './modules/toUp';
 import sendForm from './modules/sendForm';
+import validation from './modules/validation';
 
 
 // Модальное окно
@@ -21,3 +22,5 @@ accordeon();
 toUp();
 // Вверх
 sendForm();
+// Вверх
+validation();

@@ -12,6 +12,9 @@ const sendForm = () => {
 	statusMessage.style.cssText = `font-size: 2rem;
                                   color: #333333;`;
 
+	const modal = document.querySelector('.modal-callback'),
+		modalOverlay = document.querySelector('.modal-overlay');
+
 	forms.forEach(form => {
 
 		form.addEventListener('submit', event => {
@@ -38,6 +41,10 @@ const sendForm = () => {
 						statusMessage.textContent = '';
 						btn.classList.remove('circle');
 						btn.value = 'Отправить';
+						setTimeout(() => {
+							modal.style.display = 'none';
+							modalOverlay.style.display = 'none';
+						}, 6000);
 					}, 3000);
 				})
 				.catch(error => {
@@ -47,6 +54,10 @@ const sendForm = () => {
 						statusMessage.textContent = '';
 						btn.classList.remove('circle');
 						btn.value = 'Отправить';
+						setTimeout(() => {
+							modal.style.display = 'none';
+							modalOverlay.style.display = 'none';
+						}, 6000);
 					}, 3000);
 				});
 
