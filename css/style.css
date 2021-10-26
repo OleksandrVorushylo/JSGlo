@@ -254,6 +254,9 @@ a.absolute {
 .form-group {
   position: relative;
 }
+form .button {
+  border-radius: 5px;
+}
 .modal {
   display: none;
   width: 460px;
@@ -1285,4 +1288,22 @@ video#video_background {
   100% {
     transform: translateY(-50px);
   }
+}
+@keyframes pulsing {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+  50% {
+    transform: scale(0.8, 0.8);
+    background: #2fab6d;
+  }
+  100% {
+    transform: scale(0.5, 0.5);
+  }
+}
+.circle {
+  height: 52px !important;
+  width: 40px !important;
+  border-radius: 100% !important;
+  animation: pulsing 2s infinite !important;
 }
