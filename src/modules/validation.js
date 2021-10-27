@@ -16,16 +16,6 @@ const validation = () => {
 			// eslint-disable-next-line max-len
 			if (input.id === 'fio') {
 				input.value = input.value.replace(/[^а-яё -,.]/ig, '');
-				// item.addEventListener('input', () => {
-				// 	if (input.value.length < 2) {
-				// 		btn[0].disabled = true;
-				// 		btn[0].style.background = 'gray';
-				// 	}
-				// 	if (input.value.length >= 2) {
-				// 		btn[0].disabled = false;
-				// 		btn[0].style.background = '#e9bb26';
-				// 	}
-				// });
 			}
 			if (input.id === 'tel') {
 				input.value = input.value.replace(/^\+?[0378]([-()]*\d){9,11}$/ig, '');

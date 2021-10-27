@@ -1307,3 +1307,6 @@ video#video_background {
   border-radius: 100% !important;
   animation: pulsing 2s infinite !important;
 }
+.active-menu {
+  right: 0px;
+}

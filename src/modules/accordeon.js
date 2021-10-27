@@ -21,7 +21,6 @@ const accordeon = () => {
 
 	accordeon.addEventListener('click', event => {
 		const target = event.target;
-		console.log('target: ', target);
 		if (target.classList.contains('title')) {
 			title.forEach((item, i) => {
 				// eslint-disable-next-line no-undef

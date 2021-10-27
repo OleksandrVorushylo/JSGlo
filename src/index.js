@@ -6,6 +6,7 @@ import accordeon from './modules/accordeon';
 import toUp from './modules/toUp';
 import sendForm from './modules/sendForm';
 import validation from './modules/validation';
+import mobileMenu from './modules/mobileMenu';
 
 
 // Модальное окно
@@ -24,3 +25,5 @@ toUp();
 sendForm();
 // Вверх
 validation();
+// Вверх
+mobileMenu();
